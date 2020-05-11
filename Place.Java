@@ -43,11 +43,11 @@ public class Place {
         mName = name;
     }
 
-    public String getLocationCity() {
+    public String getlocationCity() {
         return mLocationCity;
     }
 
-    public void setLocationCity(String LocationCity) {
+    public void setLocationCity(String locationCity) {
         mLocationCity = locationCity;
     }
 
