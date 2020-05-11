@@ -20,7 +20,7 @@ public class Place {
 
     private String mLocationCity;
 
-    public Museum(@Nullable String name, String LocationCity, int score, String creationDate) {
+    public Museum(@Nullable String name, String locationCity, int score, String creationDate) {
         mName = name;
         mLocationCity = locationCity;
         mScore = score;
