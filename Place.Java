@@ -6,7 +6,7 @@ import androidx.room.ColumnInfo;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
-@Entity(tableName = "Place")
+@Entity(tableName = "places")
 public class Place {
 
 @PrimaryKey(autoGenerate = true)
@@ -20,7 +20,7 @@ public class Place {
 
     private String mLocationCity;
 
-    public Museum(@Nullable String name, String locationCity, int score, String creationDate) {
+    public Place(@Nullable String name, String locationCity, int score, String creationDate) {
         mName = name;
         mLocationCity = locationCity;
         mScore = score;
